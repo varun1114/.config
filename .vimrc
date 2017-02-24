@@ -5,7 +5,6 @@ filetype plugin indent on
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
-set hidden
 set nowrap
 set tabstop=4
 set backspace=indent,eol,start
@@ -28,7 +27,6 @@ set visualbell
 set noerrorbells
 set noswapfile
 
-filetype plugin indent on
 
 set list
 autocmd filetype html,xml set listchars-=tab:>
@@ -37,8 +35,9 @@ set mouse=a
 
 map <up> <nop>
 map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+
+nmap <left> gT
+nmap <right> gt
 
 nnoremap j gj
 nnoremap k gk
@@ -50,4 +49,7 @@ map <C-l> <C-w>l
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
-
+nmap <silent> <F3> :NERDTreeToggle<CR>
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
+nnoremap <C-t> :tabnew<CR>
