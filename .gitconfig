@@ -1,0 +1,11 @@
+[alias]
+    ls = log --color --graph --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%an]" --decorate --date=relative
+[color]
+    ui = true
+[push]
+    default = tracking
+[diff]
+    compactionHeuristic = true
+[core]
+    excludesfile = ~/.gitignore
+	  editor = /usr/bin/vim
