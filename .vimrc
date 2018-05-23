@@ -1,10 +1,11 @@
+execute pathogen#infect()
 set nocompatible
 syntax on
 filetype plugin indent on
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
-
-set nowrap
+set wrap linebreak nolist
+set tw=89
 set tabstop=4
 set backspace=indent,eol,start
 set autoindent
