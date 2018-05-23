@@ -1,4 +1,4 @@
-# DOOOOOOTFiles
+# D-o_O-T Files
 
 PS: There are my personal configuration files. I cannot gurantee that they will work you, if they don't you're on your own.
 
