@@ -1,5 +1,4 @@
 set nocompatible
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
