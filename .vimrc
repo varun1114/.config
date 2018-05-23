@@ -27,7 +27,6 @@ set visualbell
 set noerrorbells
 set noswapfile
 
-
 set list
 autocmd filetype html,xml set listchars-=tab:>
 set pastetoggle=<F2>
@@ -56,3 +55,10 @@ autocmd vimenter * NERDTree
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
 nnoremap <C-t> :tabnew<CR>
+
+set updatetime=100  " When you make a change to a file tracked by git, the diff markers should appear automatically. The delay is governed by vim's updatetime option; the default value is 4000, i.e. 4 seconds
+let g:gitgutter_max_signs = 500  " default value
+
+let g:indent_guides_guide_size = 1
+let g:indent_guides_color_change_percent = 3
+let g:indent_guides_enable_on_vim_startup = 1
