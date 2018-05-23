@@ -49,7 +49,10 @@ map <C-l> <C-w>l
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
+
 nmap <silent> <F3> :NERDTreeToggle<CR>
+autocmd vimenter * NERDTree
+
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
 nnoremap <C-t> :tabnew<CR>
