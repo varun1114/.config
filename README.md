@@ -1,6 +1,6 @@
 # .Files
 
-PS: There are my personal configuration files. I cannot gurantee that they will work you, if they don't you're on your own.
+PS: These are my personal configuration files. I cannot gurantee that they will work you, if they don't you're on your own.
 
 # How to start?
 
